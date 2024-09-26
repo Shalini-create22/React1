@@ -1,0 +1,113 @@
+/* src/components/Login.css */
+
+  /* Login.css */
+
+/* src/components/Login.css 
+
+
+
+
+.
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: transparent;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(193, 156, 156, 0.1);
+    flex-direction: column; /* Ensures elements stack vertically */
+
+
+h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #e9d0d0;
+    text-align: center; /* Centers the title */
+}
+
+.input-box {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    /* Limits the width of input boxes */
+    height: 20px;
+    background-color: #eef2f5;
+    margin: 20px 0; /* Reduces the margin to 20px */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex; /* Aligns input and icon within the box */
+    align-items: center;
+}
+
+/*.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #000509;
+     /* Adds padding inside the input 
+}*/
+
+.input-box::placeholder {
+    color: #333;
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.remember-forgot {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px; /* Ensures it aligns with the input boxes */
+}
+
+.remember-forgot label {
+    font-size: 14px;
+}
+
+.remember-forgot a {
+    color: #010a12;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #2633e9;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 59px;
+  /* Matches the width of the input boxes 
+    margin: 10px 0;  Adds some space between buttons */
+}
+
+
+
+.register-link a {
+    color: #000509;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

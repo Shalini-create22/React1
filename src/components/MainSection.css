@@ -1,0 +1,62 @@
+/* MainSection.css */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+    margin-top: 0;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 3rem;
+    color: #ffcc00;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .newsletter-form input {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .newsletter-form button {
+    padding: 1rem 2rem;
+    background-color: #ffcc00;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+
+  /* Example styles */
+.timer {
+  margin-top: 20px;
+}
+
+.timer p {
+  font-size: 1.2em;
+}
+
+.timer button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
